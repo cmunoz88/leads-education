@@ -3,14 +3,14 @@ import logo from './logo.svg';
 import marro from './logo_marro.png';
 import './App.css';
 import us from './us.json'
+import queryString from 'query-string';
 
 
 
+const params = queryString.parse(window.location.search)
 
 
 const Header = () => (
-
-
 <div className="container-fluid p-5">
 
    <div className="row">
@@ -61,9 +61,6 @@ function Uni() {
     </div>
 }
 
-const queryString = require('query-string');
-
-const params = queryString.parse(window.location.search)
 class App extends Component {
   constructor() {
       super();
