@@ -7,6 +7,7 @@ import us from './us.json'
 
 
 
+
 const Header = () => (
 
 
@@ -25,7 +26,7 @@ const Result = () => (
     <div className="container-fluid p-2" >
         <div className="row">
             <div className="col-12 text-center"  >
-                <h1 className='text-white'><strong>!Gracias!</strong> Tu información fue enviada exitosamente <br /></h1>
+                <h1 className='text-white'><strong>!Gracias {params.name}!</strong> Tu información fue enviada exitosamente <br /></h1>
                 <h2 className='App-title' >ESTAS SON LAS UNIVERSIDADES QUE TE RECOMENDAMOS</h2>
             </div>
         </div>
@@ -60,8 +61,9 @@ function Uni() {
     </div>
 }
 
+const queryString = require('query-string');
 
-
+const params = queryString.parse(window.location.search)
 class App extends Component {
   constructor() {
       super();
@@ -70,19 +72,18 @@ class App extends Component {
           'test' : 'hola'
       }
       this.test = 'hola';
-
   }
 
   render() {
     return (
       <div className="App">
+          {console.log(params)}
+
 
 
           { Header() }
           { Result() }
-          {console.log(us.us)}
           <Uni />
-
 
       </div>
     );
