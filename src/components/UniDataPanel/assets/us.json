@@ -1,0 +1,28 @@
+{
+  "us":[
+    {
+      "name":"francisco marroquín",
+      "img":"marro",
+      "desc":"Nuestro éxito es visible por los logros de nuestros egresados, profesionales que hoy se encuentran desempeñando una amplia gama de actividades a nivel gerencia y desarrollo, en toda clase de organizaciones locales y multinacionales, en el sector académico, público y privado. La carrera de Ingeniería de Sistemas, Informática y Ciencias de la Computación, nace en la década de los 70´s y desde entonces ha mantenido un liderazgo regional al brindar a sus estudiantes, lo más avanzado en su momento, de la tecnología disponible en la industria.",
+      "costo":"Q.125,000 /año - Q.10,416 /mes",
+      "precio_examen":"Q.4,000",
+      "empleadores":"Shell, Walmart, Bancos del Sistema, Corporaciones Internacionales"
+    },
+    {
+      "name":"Rafael Landívar",
+      "img":"marro",
+      "desc":"Nuestro éxito es visible por los logros de nuestros egresados, profesionales que hoy se encuentran desempeñando una amplia gama de actividades a nivel gerencia y desarrollo, en toda clase de organizaciones locales y multinacionales, en el sector académico, público y privado. La carrera de Ingeniería de Sistemas, Informática y Ciencias de la Computación, nace en la década de los 70´s y desde entonces ha mantenido un liderazgo regional al brindar a sus estudiantes, lo más avanzado en su momento, de la tecnología disponible en la industria.",
+      "costo":"Q.125,000 /año - Q.10,416 /mes",
+      "precio_examen":"Q.4,000",
+      "empleadores":"Shell, Walmart, Bancos del Sistema, Corporaciones Internacionales"
+    },
+    {
+      "name":"Del valle de Guatemala",
+      "img":"marro",
+      "desc":"Nuestro éxito es visible por los logros de nuestros egresados, profesionales que hoy se encuentran desempeñando una amplia gama de actividades a nivel gerencia y desarrollo, en toda clase de organizaciones locales y multinacionales, en el sector académico, público y privado. La carrera de Ingeniería de Sistemas, Informática y Ciencias de la Computación, nace en la década de los 70´s y desde entonces ha mantenido un liderazgo regional al brindar a sus estudiantes, lo más avanzado en su momento, de la tecnología disponible en la industria.",
+      "costo":"Q.125,000 /año - Q.10,416 /mes",
+      "precio_examen":"Q.4,000",
+      "empleadores":"Shell, Walmart, Bancos del Sistema, Corporaciones Internacionales"
+    }
+  ]
+}
